@@ -1,0 +1,8 @@
+{
+  "name": "YoutubePlaylist",
+  "app_id": "a25277a3",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
