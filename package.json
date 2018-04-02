@@ -27,6 +27,14 @@
     "@ionic-native/youtube-video-player": "^4.6.0",
     "@ionic/pro": "1.0.20",
     "@ionic/storage": "2.1.3",
+    "cordova-android": "6.3.0",
+    "cordova-ios": "4.5.4",
+    "cordova-plugin-device": "^2.0.1",
+    "cordova-plugin-ionic": "^4.1.3",
+    "cordova-plugin-ionic-keyboard": "^2.0.5",
+    "cordova-plugin-ionic-webview": "^1.1.19",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-whitelist": "^1.3.3",
     "cordova-plugin-youtube-video-player": "^1.0.6",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
@@ -41,7 +49,21 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-youtube-video-player": {}
-    }
+      "cordova-plugin-youtube-video-player": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "a25277a3",
+        "CHANNEL_NAME": "PetersDeveloper",
+        "UPDATE_METHOD": "auto"
+      },
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
   }
 }
